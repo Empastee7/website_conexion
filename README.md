@@ -1,6 +1,22 @@
 # Conexión Perfecta
 
+![Conexión Perfecta Logo](https://example.com/logo.png)
+
 **Conexión Perfecta** es una plataforma innovadora diseñada para los amantes del billar que desean reservar mesas en sus locales favoritos de manera rápida y eficiente.
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Empastee7/website_conexion)
+![GitHub last commit](https://img.shields.io/github/last-commit/Empastee7/website_conexion)
+![GitHub license](https://img.shields.io/github/license/Empastee7/website_conexion)
+
+## Tabla de Contenidos
+
+- [Características](#características)
+- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
 ## Características
 
@@ -9,6 +25,11 @@
 - 🔍 **Búsqueda de Locales:** Encuentra los mejores lugares para jugar billar en la ciudad.
 - 🔔 **Notificaciones y Recordatorios:** Recibe alertas para no olvidar tus reservas.
 - 📱 **Interfaz Amigable:** Disfruta de una experiencia de usuario fluida en cualquier dispositivo.
+
+## Capturas de Pantalla
+
+![Página Principal](https://example.com/screenshot1.png)
+![Reservar Mesa](https://example.com/screenshot2.png)
 
 ## Tecnologías Utilizadas
 
