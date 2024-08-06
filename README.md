@@ -1,5 +1,7 @@
 # Conexión Perfecta
 
+![Conexión Perfecta Logo](https://example.com/logo.png)
+
 **Conexión Perfecta** es una plataforma innovadora diseñada para los amantes del billar que desean reservar mesas en sus locales favoritos de manera rápida y eficiente.
 
 ## Características
@@ -29,7 +31,7 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
 2. Navega al directorio del proyecto:
 
     ```bash
-    cd conexion-perfecta
+    cd website_conexion
     ```
 
 3. Configura tu entorno de desarrollo (XAMPP o similar) y asegúrate de que las configuraciones de la base de datos en el archivo `config.php` sean correctas.
@@ -56,5 +58,5 @@ Este proyecto está licenciado bajo la [MIT License](LICENSE).
 
 Para más información, sugerencias o soporte, puedes contactarnos a través de:
 
-- **Correo electrónico:** [juan.m](mailto:correo@ejemplo.com)
-- **GitHub:** [@tuusuario](https://github.com/tuusuario)
+- **Correo electrónico:** [juan.malaver1000@gmail.com](mailto:juan.malaver1000@gmail.com)
+- **GitHub:** [@Empastee7](https://github.com/Empastee7)
