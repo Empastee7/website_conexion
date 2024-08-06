@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-color: #121212 !important;
+}
+
+.header {
+    margin: 20px 30px 20px 30px;
+    padding: 0;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navegation {
+    display: flex;
+    align-items: center;
+}
+
+.navegation .logo {
+    flex: 0.2;
+    font-size: 25px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navegation .info {
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegation .info .in {
+    margin: 0px 30px 0px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navegation .info .in3 {
+    background-color: #209cf4;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0px 15px 0px 15px !important;
+}
+
+.navegation .social {
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegation .social a {
+    font-size: 25px;
+    margin: 0px 10px 0px 10px;
+    color: #fff;
+    text-decoration: none; 
+}
+
+/* Pagina */
+
+
+
+.principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.seccion1 {
+    height: 92vh;
+    flex: 0.275;
+}
+
+.seccion2 {
+    height: 92vh;
+    flex: 0.45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.containerfor {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 50px 0px 50px;
+    border-radius: 7px;
+}
+.seccion3 {
+    height: 92vh;
+    flex: 0.275;
+}
+
+.contrform {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cantforjug {
+    margin: 10px 5px 20px 0px;
+}
+
+#cantidadJugadores {
+    margin: 10px 0px 20px 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.prin1for {
+    flex: 0.5;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horforjue {
+    margin: 20px 5px 10px 0px;
+}
+
+.prin2for {
+    flex: 0.5;
+    font-size: 17px;
+}
+
+.buttforb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agforbi {
+    margin: 50px;
+    padding: 10px 17px 10px 17px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #209cf4;
+    color: #fff;
+    border: 1px solid #209cf4;
+    transition: .3s;
+}
+
+.agforbi:hover {
+    transform: scale(1.1);
+}
+
+#horas {
+    margin: 20px 0px 10px 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.avisel {
+    font-size: 17px;
+    padding: 5px 0px 20px 0px !important;
+}
+
+.fechfor {
+    margin: 10px 5px 10px 0px;
+}
+
+#fecha {
+    margin: 10px 0px 10px 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.horainifo {
+    margin: 10px 5px 20px 0px;
+}
+
+#fechaHoraInicio {
+    margin: 10px 0px 20px 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.tipmes {
+    margin: 20px 5px 10px 0px;
+}
+
+#tipoMesa {
+    margin: 20px 0px 10px 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.lox2 {
+    padding-bottom: 10px !important;
+}
+
+.boton-mi-cuenta {
+    display: inline-block; 
+    padding: 7px 14px; 
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid white; 
+    color: white; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+    font-size: 16px !important;
+    border-radius: 50px;
+}
+  
+.boton-mi-cuenta:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.fa-user {
+    padding-right: 10px !important;
+}
+
+@media screen and (max-width: 1168px) {
+    .navegation .info {
+        display: none;
+    }
+    .navegation .vacio {
+        flex: 0.2;
+    }
+    .navegation .logo {
+        flex: 0.6;
+        text-align: center;
+    }
+    .navegation .social {
+        flex: 0.2;
+    }
+    .header {
+        margin-top: 20px;
+    }
+    .logo2 .part1 {
+        font-size: 140px;
+    }
+    .logo2 .part2 {
+        font-size: 140px;
+    }
+    .contenido p {
+        font-size: 17.8px;
+    }
+    .contenido .btnprin {
+        font-size: 17.9px;
+        padding: 12px 22px 12px 22px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-color: #100c14 !important;
+    }
+    .logo2 .part1 {
+        font-size: 110px;
+    }
+    .logo2 .part2 {
+        font-size: 110px;
+    }
+    .contenido p {
+        font-size: 15.8px;
+    }
+    .contenido .btnprin {
+        font-size: 15.9px;
+        padding: 9px 17px 9px 17px;
+    }
+    #video-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 628px) {
+    .navegation .logo {
+        font-size: 20px;
+    }
+    .navegation .social a {
+        font-size: 20px;
+    }
+    .logo2 .part1 {
+        font-size: 90px;
+    }
+    .logo2 .part2 {
+        font-size: 90px;
+    }
+    .contenido p {
+        font-size: 13.4px;
+    }
+    .contenido .btnprin {
+        font-size: 13.4px;
+        padding: 7px 16px 7px 16px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .navegation .logo {
+        font-size: 20px;
+    }
+    .navegation .social a {
+        font-size: 20px;
+    }
+    .logo2 .part1 {
+        font-size: 70px;
+    }
+    .logo2 .part2 {
+        font-size: 70px;
+    }
+    .contenido p {
+        font-size: 13px;
+    }
+    .contenido .btnprin {
+        font-size: 13px;
+        padding: 10px 20px 10px 20px;
+    }
+}

@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-color:  #100c14 !important;
+}
+
+.header {
+    margin: 20px 30px 20px 30px;
+    padding: 0;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navegation {
+    display: flex;
+    align-items: center;
+}
+
+.navegation .logo {
+    flex: 0.2;
+    font-size: 25px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navegation .info {
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegation .info .in {
+    margin: 0px 30px 0px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navegation .info .in3 {
+    background-color: #209cf4;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0px 15px 0px 15px !important;
+}
+
+.navegation .social {
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegation .social a {
+    font-size: 25px;
+    margin: 0px 10px 0px 10px;
+    color: #fff;
+    text-decoration: none; 
+}
+
+/* Pagina */
+
+.principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 90.723vh;
+}
+
+.menulateral {
+    flex: 0.25; 
+    height: 90.723vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    left: 0;   
+}
+
+.contenidousu {
+    flex: 0.6;
+    height: 90.723vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cosascitcav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cav1 {
+    flex: 0.3;
+    height: 10px;
+    background-color: blue;
+}
+
+.cav2 {
+    flex: 0.3;
+    background-color: red;
+}
+
+.cav3 {
+    flex: 0.3;
+    background-color: green;
+}
+
+.otro {
+    flex: 0.1;
+}
+
+.vaxis {
+    flex: 0.2 !important;
+}
+
+.informacionusu {
+    padding: 20px;
+}
+
+.fotoprin {
+    font-size: 70px;
+    padding: 10px 0px 10px 10px !important;
+    color: #fff;
+}
+
+.personac {
+    font-size: 28px;
+    color: #dddddd;
+}
+
+.infox2 {
+    font-size: 20px;
+    color: #dddddd;
+}
+
+.fotoprin2 {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    color: #dfdfdf;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logout {
+    justify-content: flex-end;
+}
+
+.infoxi {
+    bottom: 0;
+    height: auto;
+    position: fixed;
+    top: auto;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imgusu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0.2;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.contenusu2 {
+    flex: 0.8;
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.upgrid {
+    flex: 0.5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.downgrid {
+    flex: 0.5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logout {
+    background-color: #f04434;
+    padding: 12px 16px 12px 16px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.citasrec {
+    flex: 0.5;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 30px 15px 15px 30px;
+    border-radius: 10px;
+}
+
+.citasrec2 {
+    flex: 0.5;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 30px 30px 15px 15px;
+    border-radius: 10px;
+}
+
+.citasrec3 {
+    flex: 0.5;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 15px 15px 30px 30px;
+    border-radius: 10px;
+}
+
+.citasrec4 {
+    flex: 0.5;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 15px 30px 30px 15px;
+    border-radius: 10px;
+}
+
+.citsrec {
+    color: #fff;
+    padding: 20px 0 0 20px;
+}
+
+.explor {
+    padding-left: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.redcos {
+    font-size: 22px;
+    color: #dfdfdf;
+    text-decoration: none;
+    padding: 1px;
+}
+
+.cos:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cos {
+    padding: 15px;
+    border-radius: 50px;
+    transition: .2s;
+}
+
+.cosi1 {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.recurs {
+    padding-right: 7px;
+}
+
+.vacio2 {
+    flex: 0.2;
+}
+
+.boton-mi-cuenta {
+    display: inline-block; 
+    padding: 7px 14px; 
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid white; 
+    color: white; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+    font-size: 16px !important;
+    border-radius: 50px;
+}
+  
+.boton-mi-cuenta:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.fa-user {
+    padding-right: 10px !important;
+}
+
+.cita {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.estado-activo { color: #75b798; }
+.estado-pendiente { color: #ffda6a; }
+.estado-cancelada { color: #ea868f; }
+.estado-finalizada { color: #383c44; }
+.estado-punto {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.infcpac {
+    margin:  5px 0px 5px 0px !important;
+}
+
+.ordforacc {
+    display: flex;
+    flex-direction: row;
+}
+
+.ordpacc {flex: 0.5;}
+.ordpacc2 {flex: 0.5;}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.pagcitpbe {
+    padding: 7px 13px 7px 13px;
+    background-color: #209cf4;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+@media screen and (max-width: 1168px) {
+    .navegation .info {
+        display: none;
+    }
+    .navegation .vacio {
+        flex: 0.2;
+    }
+    .navegation .logo {
+        flex: 0.6;
+        text-align: center;
+    }
+    .navegation .social {
+        flex: 0.2;
+    }
+    .header {
+        margin-top: 20px;
+    }
+    .logo2 .part1 {
+        font-size: 140px;
+    }
+    .logo2 .part2 {
+        font-size: 140px;
+    }
+    .contenido p {
+        font-size: 17.8px;
+    }
+    .contenido .btnprin {
+        font-size: 17.9px;
+        padding: 12px 22px 12px 22px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-color: #100c14 !important;
+    }
+    .logo2 .part1 {
+        font-size: 110px;
+    }
+    .logo2 .part2 {
+        font-size: 110px;
+    }
+    .contenido p {
+        font-size: 15.8px;
+    }
+    .contenido .btnprin {
+        font-size: 15.9px;
+        padding: 9px 17px 9px 17px;
+    }
+    #video-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 628px) {
+    .navegation .logo {
+        font-size: 20px;
+    }
+    .navegation .social a {
+        font-size: 20px;
+    }
+    .logo2 .part1 {
+        font-size: 90px;
+    }
+    .logo2 .part2 {
+        font-size: 90px;
+    }
+    .contenido p {
+        font-size: 13.4px;
+    }
+    .contenido .btnprin {
+        font-size: 13.4px;
+        padding: 7px 16px 7px 16px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .navegation .logo {
+        font-size: 20px;
+    }
+    .navegation .social a {
+        font-size: 20px;
+    }
+    .logo2 .part1 {
+        font-size: 70px;
+    }
+    .logo2 .part2 {
+        font-size: 70px;
+    }
+    .contenido p {
+        font-size: 13px;
+    }
+    .contenido .btnprin {
+        font-size: 13px;
+        padding: 10px 20px 10px 20px;
+    }
+}

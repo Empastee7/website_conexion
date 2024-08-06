@@ -1,0 +1,222 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:  #100c14 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.container7 {
+    display: flex ;
+    flex-direction: row ;
+    justify-content: center ;
+    align-items: flex-start ;
+    padding: 20px;
+}
+
+.payment-section, .summary-section {
+    background-color: #15151b;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    max-width: 450px;
+    color: #fff;
+}
+
+.payment-section h1, .summary-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.payment-methods, .card-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.header {
+    margin: 20px 30px 0px 30px;
+    padding: 0;
+    height: 10vh;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.calculate {
+    width: 100%;
+    height: 90vh;
+}
+
+.navegation {
+    display: flex;
+    align-items: center;
+}
+
+.navegation .logo {
+    flex: 0.2;
+    font-size: 25px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navegation .info {
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegation .info .in {
+    margin: 0px 30px 0px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navegation .info .in3 {
+    background-color: #209cf4;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0px 15px 0px 15px !important;
+}
+
+.navegation .social {
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegation .social a {
+    font-size: 25px;
+    margin: 0px 10px 0px 10px;
+    color: #fff;
+    text-decoration: none; 
+}
+
+.boton-mi-cuenta {
+    display: inline-block; 
+    padding: 7px 14px; 
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid white; 
+    color: white; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+    font-size: 16px !important;
+    border-radius: 50px;
+}
+  
+.boton-mi-cuenta:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.fa-user {
+    padding-right: 10px !important;
+}
+
+.input-group {
+    position: relative;
+  }
+  
+  .icon-placeholder {
+    position: absolute;
+    top: 60%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #999;
+  }
+  
+  .input-group input {
+    padding-left: 40px; /* Espacio para el icono */
+  }
+  
+  .input-group input::placeholder {
+    text-align: left; 
+    padding: 25px;/* Alinea el placeholder a la derecha */
+  }
+  
+  .input-group input:not(:placeholder-shown) + .icon-placeholder {
+    display: none;
+  }
+  
+.terms a {
+    color: #0073e6;
+}
+
+
+.payment-methods button, .card-options button, .confirm-button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.payment-methods button:hover, .card-options button:hover, .confirm-button:hover {
+    background-color: #005bb5;
+}
+
+.card-details, .billing-details, .terms {
+    margin-bottom: 20px;
+}
+
+.input-group2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group2 input {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.card-details input[type="text"], .billing-details input[type="email"], .billing-details input[type="text"], .billing-details select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.card-details input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.confirm-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.summary-section p {
+    margin: 10px 0;
+}
+
+.total-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1008px) {
+    .container7 {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .payment-section, .summary-section {
+        width: 45%;
+    }
+}
