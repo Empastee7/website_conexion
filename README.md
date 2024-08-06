@@ -1,7 +1,5 @@
 # Conexión Perfecta
 
-![Conexión Perfecta Logo](https://example.com/logo.png)
-
 **Conexión Perfecta** es una plataforma innovadora diseñada para los amantes del billar que desean reservar mesas en sus locales favoritos de manera rápida y eficiente.
 
 ## Características
