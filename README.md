@@ -56,5 +56,5 @@ Este proyecto está licenciado bajo la [MIT License](LICENSE).
 
 Para más información, sugerencias o soporte, puedes contactarnos a través de:
 
-- **Correo electrónico:** [correo@ejemplo.com](mailto:correo@ejemplo.com)
+- **Correo electrónico:** [juan.m](mailto:correo@ejemplo.com)
 - **GitHub:** [@tuusuario](https://github.com/tuusuario)
